@@ -1,6 +1,7 @@
 -- import: fastn-community.github.io/testimonial-doc/docs
 -- import: __user_name__.github.io/__repo_name__
--- import: __user_name__.github.io/__repo_name__/data
+-- import: fastn-community.github.io/testimonial-doc/data
+export: testimonial
 
 
 
@@ -12,9 +13,8 @@ package-name: __repo_name__
 package-full-name: __user_name__.github.io/__repo_name__
 github: https://github.com/__user_name__/__repo_name__
 category: __user_name__.github.io/__repo_name__
-preview-url: preview/
 license-url: NULL
-license-url: https://github.com/__user_name__/__repo_name__/blob/main/LICENSE
+;; license-url: https://github.com/__user_name__/__repo_name__/blob/main/LICENSE
 
 
 
@@ -28,13 +28,13 @@ license-url: https://github.com/__user_name__/__repo_name__/blob/main/LICENSE
 -- component testimonials:
 caption title:
 optional body subtitle:
-data.testimonial list testimonail-list:
+data.testimonial list testimonial-list:
 
 ;; =============================================================================
 ;; =====================<IMPLEMENT THE HERO testimonials HERE>=========================
 ;; =============================================================================
 
--- ftd.text: Implement the **HERO testimonials** component here
+-- ftd.text: Implement the **testimonials** component here
 color: $inherited.colors.text
 background.solid: $inherited.colors.background.base
 width: fill-container
@@ -48,4 +48,3 @@ padding-vertical.px: 32
 ;; =============================================================================
 
 -- end: testimonials
-
